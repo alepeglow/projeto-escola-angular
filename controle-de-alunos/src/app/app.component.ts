@@ -15,15 +15,15 @@ export class AppComponent {
       matricula: 111,
       nome: 'Harry Potter',
       email: 'harry@proway.com',
-      cadastro: true,
-      cursos: []
+      cadastro: false,
+      cursos: ['Javascript', 'HTML', 'CSS']
     },
     {
       matricula: 222,
       nome: 'Hermione Granger',
       email: 'hermione@proway.com',
-      cadastro: false,
-      cursos: []
+      cadastro: true,
+      cursos: ['Java', 'Postgres']
     }
   ];
 }
