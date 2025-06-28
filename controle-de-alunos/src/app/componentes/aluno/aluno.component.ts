@@ -11,5 +11,6 @@ export class AlunoComponent {
 
   @Input()
   aluno!: AlunoInterface;
+  
 
 }
