@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AlunoInterface } from '../../interfaces/AlunoInterface';
 
 @Component({
   selector: 'app-aluno',
@@ -8,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class AlunoComponent {
 
+  aluno: AlunoInterface = {
+    nome: 'Alessandra',
+    matricula: 7798,
+    email:'peglowalessandra@gmail.com',
+    cadastro: false,
+    cursos: []
+  }
 }
