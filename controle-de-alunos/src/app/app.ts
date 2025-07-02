@@ -10,6 +10,8 @@ import { AlunoInterface } from './interfaces/AlunoInterface';
 export class App {
   protected title = 'meu-primeiro-projeto';
 
+  exibicao: string = 'lista';
+
   listaAlunos: AlunoInterface[] = [
     {
       matricula: 111,
