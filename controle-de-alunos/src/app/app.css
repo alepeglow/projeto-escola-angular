@@ -1,13 +1,17 @@
 header, footer {
     background-color: #13134b;
     color: #FFF;
-    text-align: center;
     padding: 10px;
-    
+    text-align: center;
 }
 
 main {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
     display: flex;
     justify-content: center;
 }

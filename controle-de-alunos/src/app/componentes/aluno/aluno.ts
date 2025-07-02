@@ -1,16 +1,15 @@
-import { Component,Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { AlunoInterface } from '../../interfaces/AlunoInterface';
 
 @Component({
   selector: 'app-aluno',
   standalone: false,
-  templateUrl: './aluno.component.html',
-  styleUrl: './aluno.component.css'
+  templateUrl: './aluno.html',
+  styleUrl: './aluno.css'
 })
-export class AlunoComponent {
+export class Aluno {
 
   @Input()
   aluno!: AlunoInterface;
-  
 
 }
