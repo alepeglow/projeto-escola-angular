@@ -8,7 +8,8 @@ import { AlunoInterface } from '../../interfaces/AlunoInterface';
   styleUrl: './aluno-lista.css'
 })
 export class AlunoLista {
- 
+
   @Input()
-  lista: AlunoInterface[] = []
+  lista: AlunoInterface[] = [];
+
 }

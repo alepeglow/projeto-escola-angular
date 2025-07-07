@@ -1,22 +1,22 @@
 .lista {
     width: 800px;
-   
 }
 
-table,tr {
+table, tr {
     border-collapse: collapse;
 }
 
 th {
     background-color: #ef6205;
-    color: #fff;
+    color: #FFF;
     text-align: left;
 }
 
 tr {
-    color:#383737;
+    color: #383737;
 }
-th,td {
+
+th, td {
     padding: 10px;
 }
 
@@ -30,5 +30,5 @@ table tr:nth-child(odd) {
 
 table tr:hover {
     background-color: #1c076e;
-    color: #fff;
+    color: #FFF;
 }
